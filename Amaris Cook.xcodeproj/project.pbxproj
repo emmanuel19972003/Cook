@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B37244BB944F80791FC47A7 /* Pods_Amaris_CookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26E0408D38524CDA2F77256 /* Pods_Amaris_CookTests.framework */; };
+		53E493250E76CA8D5CF492A8 /* Pods_Amaris_Cook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05996D26E5A25F7A4009BB85 /* Pods_Amaris_Cook.framework */; };
+		672E7B3129788DFA0074B55A /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E7B3029788DFA0074B55A /* search.swift */; };
+		672E7B3329788E640074B55A /* searchmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E7B3229788E640074B55A /* searchmodel.swift */; };
+		673AF07B2977017D009B0062 /* Amaris_CookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AF07A2977017D009B0062 /* Amaris_CookApp.swift */; };
+		673AF07F2977017F009B0062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673AF07E2977017F009B0062 /* Assets.xcassets */; };
+		673AF0822977017F009B0062 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673AF0812977017F009B0062 /* Preview Assets.xcassets */; };
+		673AF08C2977017F009B0062 /* Amaris_CookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AF08B2977017F009B0062 /* Amaris_CookTests.swift */; };
+		673AF0962977017F009B0062 /* Amaris_CookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AF0952977017F009B0062 /* Amaris_CookUITests.swift */; };
+		673AF0982977017F009B0062 /* Amaris_CookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AF0972977017F009B0062 /* Amaris_CookUITestsLaunchTests.swift */; };
+		676174DE29775E1F00ABBAB0 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676174DD29775E1F00ABBAB0 /* SplashScreen.swift */; };
+		677871A929777F1A006E3601 /* tapbarcustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871A829777F1A006E3601 /* tapbarcustom.swift */; };
+		677871AB29777FCD006E3601 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871AA29777FCC006E3601 /* home.swift */; };
+		677871AD297788B3006E3601 /* homemodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871AC297788B3006E3601 /* homemodel.swift */; };
+		677871B02977975A006E3601 /* meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871AF2977975A006E3601 /* meals.swift */; };
+		677871B22977A1BB006E3601 /* mealsmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871B12977A1BB006E3601 /* mealsmodel.swift */; };
+		677871B42977A40E006E3601 /* bytype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871B32977A40E006E3601 /* bytype.swift */; };
+		677871B62977B122006E3601 /* byRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871B52977B122006E3601 /* byRecipe.swift */; };
+		677871BA2977B71B006E3601 /* recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871B92977B71B006E3601 /* recipe.swift */; };
+		678A014A2978E8D7008D2636 /* persitencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678A01492978E8D7008D2636 /* persitencia.swift */; };
+		678A014C2978E9D1008D2636 /* favorititem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678A014B2978E9D1008D2636 /* favorititem.swift */; };
+		678A014E2978EABC008D2636 /* favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678A014D2978EABC008D2636 /* favorite.swift */; };
+		678A01502978EAC9008D2636 /* favoritemodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678A014F2978EAC9008D2636 /* favoritemodel.swift */; };
+		678A015229790C01008D2636 /* calls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678A015129790C01008D2636 /* calls.swift */; };
+		67BACBC1297832EC00FF085F /* recipemodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BACBC0297832EC00FF085F /* recipemodel.swift */; };
+		67C8788B297A1709008855E6 /* calltest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8788A297A1709008855E6 /* calltest.swift */; };
+		D3B8C5AE53CD44BED3AAA0A9 /* Pods_Amaris_Cook_Amaris_CookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C58F7ED1E28EEDEC8E7B218 /* Pods_Amaris_Cook_Amaris_CookUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		673AF0882977017F009B0062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 673AF06F2977017D009B0062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673AF0762977017D009B0062;
+			remoteInfo = "Amaris Cook";
+		};
+		673AF0922977017F009B0062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 673AF06F2977017D009B0062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673AF0762977017D009B0062;
+			remoteInfo = "Amaris Cook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05996D26E5A25F7A4009BB85 /* Pods_Amaris_Cook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amaris_Cook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		088C803CD5E293EA86C8A0E7 /* Pods-Amaris Cook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaris Cook.debug.xcconfig"; path = "Target Support Files/Pods-Amaris Cook/Pods-Amaris Cook.debug.xcconfig"; sourceTree = "<group>"; };
+		672E7B3029788DFA0074B55A /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
+		672E7B3229788E640074B55A /* searchmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchmodel.swift; sourceTree = "<group>"; };
+		673AF0772977017D009B0062 /* Amaris Cook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amaris Cook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		673AF07A2977017D009B0062 /* Amaris_CookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaris_CookApp.swift; sourceTree = "<group>"; };
+		673AF07E2977017F009B0062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		673AF0812977017F009B0062 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		673AF0872977017F009B0062 /* Amaris CookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaris CookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		673AF08B2977017F009B0062 /* Amaris_CookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaris_CookTests.swift; sourceTree = "<group>"; };
+		673AF0912977017F009B0062 /* Amaris CookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaris CookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		673AF0952977017F009B0062 /* Amaris_CookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaris_CookUITests.swift; sourceTree = "<group>"; };
+		673AF0972977017F009B0062 /* Amaris_CookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaris_CookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		676174DD29775E1F00ABBAB0 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		677871A829777F1A006E3601 /* tapbarcustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapbarcustom.swift; sourceTree = "<group>"; };
+		677871AA29777FCC006E3601 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		677871AC297788B3006E3601 /* homemodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homemodel.swift; sourceTree = "<group>"; };
+		677871AF2977975A006E3601 /* meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meals.swift; sourceTree = "<group>"; };
+		677871B12977A1BB006E3601 /* mealsmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealsmodel.swift; sourceTree = "<group>"; };
+		677871B32977A40E006E3601 /* bytype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bytype.swift; sourceTree = "<group>"; };
+		677871B52977B122006E3601 /* byRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = byRecipe.swift; sourceTree = "<group>"; };
+		677871B92977B71B006E3601 /* recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipe.swift; sourceTree = "<group>"; };
+		678A01492978E8D7008D2636 /* persitencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persitencia.swift; sourceTree = "<group>"; };
+		678A014B2978E9D1008D2636 /* favorititem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favorititem.swift; sourceTree = "<group>"; };
+		678A014D2978EABC008D2636 /* favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favorite.swift; sourceTree = "<group>"; };
+		678A014F2978EAC9008D2636 /* favoritemodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritemodel.swift; sourceTree = "<group>"; };
+		678A015129790C01008D2636 /* calls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calls.swift; sourceTree = "<group>"; };
+		679FF3D7297863B200DC2671 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67BACBC0297832EC00FF085F /* recipemodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipemodel.swift; sourceTree = "<group>"; };
+		67C8788A297A1709008855E6 /* calltest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calltest.swift; sourceTree = "<group>"; };
+		6C58F7ED1E28EEDEC8E7B218 /* Pods_Amaris_Cook_Amaris_CookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amaris_Cook_Amaris_CookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D0AC972D16CC6FDEDE1E14 /* Pods-Amaris CookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaris CookTests.release.xcconfig"; path = "Target Support Files/Pods-Amaris CookTests/Pods-Amaris CookTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EC358CF73ACB9D18A24E6D3 /* Pods-Amaris Cook-Amaris CookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaris Cook-Amaris CookUITests.debug.xcconfig"; path = "Target Support Files/Pods-Amaris Cook-Amaris CookUITests/Pods-Amaris Cook-Amaris CookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91FCA6CF90A98EBC98470599 /* Pods-Amaris Cook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaris Cook.release.xcconfig"; path = "Target Support Files/Pods-Amaris Cook/Pods-Amaris Cook.release.xcconfig"; sourceTree = "<group>"; };
+		B26E0408D38524CDA2F77256 /* Pods_Amaris_CookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amaris_CookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FF768F5CB475C4AED4ACE /* Pods-Amaris CookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaris CookTests.debug.xcconfig"; path = "Target Support Files/Pods-Amaris CookTests/Pods-Amaris CookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3A42DF4BD177BB2B37D4495 /* Pods-Amaris Cook-Amaris CookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaris Cook-Amaris CookUITests.release.xcconfig"; path = "Target Support Files/Pods-Amaris Cook-Amaris CookUITests/Pods-Amaris Cook-Amaris CookUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		673AF0742977017D009B0062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E493250E76CA8D5CF492A8 /* Pods_Amaris_Cook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673AF0842977017F009B0062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B37244BB944F80791FC47A7 /* Pods_Amaris_CookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673AF08E2977017F009B0062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B8C5AE53CD44BED3AAA0A9 /* Pods_Amaris_Cook_Amaris_CookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5081103857077E760FFBFA30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05996D26E5A25F7A4009BB85 /* Pods_Amaris_Cook.framework */,
+				6C58F7ED1E28EEDEC8E7B218 /* Pods_Amaris_Cook_Amaris_CookUITests.framework */,
+				B26E0408D38524CDA2F77256 /* Pods_Amaris_CookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		673AF06E2977017D009B0062 = {
+			isa = PBXGroup;
+			children = (
+				673AF0792977017D009B0062 /* Amaris Cook */,
+				673AF08A2977017F009B0062 /* Amaris CookTests */,
+				673AF0942977017F009B0062 /* Amaris CookUITests */,
+				673AF0782977017D009B0062 /* Products */,
+				C1A22BD266527652E40ED8F9 /* Pods */,
+				5081103857077E760FFBFA30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		673AF0782977017D009B0062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				673AF0772977017D009B0062 /* Amaris Cook.app */,
+				673AF0872977017F009B0062 /* Amaris CookTests.xctest */,
+				673AF0912977017F009B0062 /* Amaris CookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		673AF0792977017D009B0062 /* Amaris Cook */ = {
+			isa = PBXGroup;
+			children = (
+				678A01482978E8C1008D2636 /* persitencia */,
+				677871AE297796FF006E3601 /* structures  */,
+				676174DA29775DF600ABBAB0 /* models */,
+				676174D929775DE900ABBAB0 /* Views */,
+				673AF07A2977017D009B0062 /* Amaris_CookApp.swift */,
+				673AF07E2977017F009B0062 /* Assets.xcassets */,
+				673AF0802977017F009B0062 /* Preview Content */,
+				679FF3D7297863B200DC2671 /* test.playground */,
+			);
+			path = "Amaris Cook";
+			sourceTree = "<group>";
+		};
+		673AF0802977017F009B0062 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				673AF0812977017F009B0062 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		673AF08A2977017F009B0062 /* Amaris CookTests */ = {
+			isa = PBXGroup;
+			children = (
+				673AF08B2977017F009B0062 /* Amaris_CookTests.swift */,
+			);
+			path = "Amaris CookTests";
+			sourceTree = "<group>";
+		};
+		673AF0942977017F009B0062 /* Amaris CookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				673AF0952977017F009B0062 /* Amaris_CookUITests.swift */,
+				673AF0972977017F009B0062 /* Amaris_CookUITestsLaunchTests.swift */,
+			);
+			path = "Amaris CookUITests";
+			sourceTree = "<group>";
+		};
+		676174D929775DE900ABBAB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				676174DD29775E1F00ABBAB0 /* SplashScreen.swift */,
+				677871A829777F1A006E3601 /* tapbarcustom.swift */,
+				677871AA29777FCC006E3601 /* home.swift */,
+				677871AF2977975A006E3601 /* meals.swift */,
+				677871B92977B71B006E3601 /* recipe.swift */,
+				672E7B3029788DFA0074B55A /* search.swift */,
+				678A014D2978EABC008D2636 /* favorite.swift */,
+				67C8788A297A1709008855E6 /* calltest.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		676174DA29775DF600ABBAB0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				677871AC297788B3006E3601 /* homemodel.swift */,
+				677871B12977A1BB006E3601 /* mealsmodel.swift */,
+				67BACBC0297832EC00FF085F /* recipemodel.swift */,
+				672E7B3229788E640074B55A /* searchmodel.swift */,
+				678A014F2978EAC9008D2636 /* favoritemodel.swift */,
+				678A015129790C01008D2636 /* calls.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		677871AE297796FF006E3601 /* structures  */ = {
+			isa = PBXGroup;
+			children = (
+				677871B32977A40E006E3601 /* bytype.swift */,
+				677871B52977B122006E3601 /* byRecipe.swift */,
+			);
+			path = "structures ";
+			sourceTree = "<group>";
+		};
+		678A01482978E8C1008D2636 /* persitencia */ = {
+			isa = PBXGroup;
+			children = (
+				678A01492978E8D7008D2636 /* persitencia.swift */,
+				678A014B2978E9D1008D2636 /* favorititem.swift */,
+			);
+			path = persitencia;
+			sourceTree = "<group>";
+		};
+		C1A22BD266527652E40ED8F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				088C803CD5E293EA86C8A0E7 /* Pods-Amaris Cook.debug.xcconfig */,
+				91FCA6CF90A98EBC98470599 /* Pods-Amaris Cook.release.xcconfig */,
+				7EC358CF73ACB9D18A24E6D3 /* Pods-Amaris Cook-Amaris CookUITests.debug.xcconfig */,
+				C3A42DF4BD177BB2B37D4495 /* Pods-Amaris Cook-Amaris CookUITests.release.xcconfig */,
+				B90FF768F5CB475C4AED4ACE /* Pods-Amaris CookTests.debug.xcconfig */,
+				74D0AC972D16CC6FDEDE1E14 /* Pods-Amaris CookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		673AF0762977017D009B0062 /* Amaris Cook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673AF09B2977017F009B0062 /* Build configuration list for PBXNativeTarget "Amaris Cook" */;
+			buildPhases = (
+				9967E0AD40F897C9D54DCD5F /* [CP] Check Pods Manifest.lock */,
+				673AF0732977017D009B0062 /* Sources */,
+				673AF0742977017D009B0062 /* Frameworks */,
+				673AF0752977017D009B0062 /* Resources */,
+				BBAD664C17E933E83D2BB23C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amaris Cook";
+			productName = "Amaris Cook";
+			productReference = 673AF0772977017D009B0062 /* Amaris Cook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		673AF0862977017F009B0062 /* Amaris CookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673AF09E2977017F009B0062 /* Build configuration list for PBXNativeTarget "Amaris CookTests" */;
+			buildPhases = (
+				CF517E167B52DB7A6BA2BE56 /* [CP] Check Pods Manifest.lock */,
+				673AF0832977017F009B0062 /* Sources */,
+				673AF0842977017F009B0062 /* Frameworks */,
+				673AF0852977017F009B0062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				673AF0892977017F009B0062 /* PBXTargetDependency */,
+			);
+			name = "Amaris CookTests";
+			productName = "Amaris CookTests";
+			productReference = 673AF0872977017F009B0062 /* Amaris CookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		673AF0902977017F009B0062 /* Amaris CookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673AF0A12977017F009B0062 /* Build configuration list for PBXNativeTarget "Amaris CookUITests" */;
+			buildPhases = (
+				826A27D70E7FCA2DAC17CF4D /* [CP] Check Pods Manifest.lock */,
+				673AF08D2977017F009B0062 /* Sources */,
+				673AF08E2977017F009B0062 /* Frameworks */,
+				673AF08F2977017F009B0062 /* Resources */,
+				B1F05D4CEDC10971ADFEEF98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				673AF0932977017F009B0062 /* PBXTargetDependency */,
+			);
+			name = "Amaris CookUITests";
+			productName = "Amaris CookUITests";
+			productReference = 673AF0912977017F009B0062 /* Amaris CookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		673AF06F2977017D009B0062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					673AF0762977017D009B0062 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					673AF0862977017F009B0062 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 673AF0762977017D009B0062;
+					};
+					673AF0902977017F009B0062 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 673AF0762977017D009B0062;
+					};
+				};
+			};
+			buildConfigurationList = 673AF0722977017D009B0062 /* Build configuration list for PBXProject "Amaris Cook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 673AF06E2977017D009B0062;
+			productRefGroup = 673AF0782977017D009B0062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				673AF0762977017D009B0062 /* Amaris Cook */,
+				673AF0862977017F009B0062 /* Amaris CookTests */,
+				673AF0902977017F009B0062 /* Amaris CookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		673AF0752977017D009B0062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673AF0822977017F009B0062 /* Preview Assets.xcassets in Resources */,
+				673AF07F2977017F009B0062 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673AF0852977017F009B0062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673AF08F2977017F009B0062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		826A27D70E7FCA2DAC17CF4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amaris Cook-Amaris CookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9967E0AD40F897C9D54DCD5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amaris Cook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F05D4CEDC10971ADFEEF98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amaris Cook-Amaris CookUITests/Pods-Amaris Cook-Amaris CookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amaris Cook-Amaris CookUITests/Pods-Amaris Cook-Amaris CookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amaris Cook-Amaris CookUITests/Pods-Amaris Cook-Amaris CookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAD664C17E933E83D2BB23C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amaris Cook/Pods-Amaris Cook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amaris Cook/Pods-Amaris Cook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amaris Cook/Pods-Amaris Cook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF517E167B52DB7A6BA2BE56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amaris CookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		673AF0732977017D009B0062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BACBC1297832EC00FF085F /* recipemodel.swift in Sources */,
+				677871B42977A40E006E3601 /* bytype.swift in Sources */,
+				678A015229790C01008D2636 /* calls.swift in Sources */,
+				676174DE29775E1F00ABBAB0 /* SplashScreen.swift in Sources */,
+				678A014A2978E8D7008D2636 /* persitencia.swift in Sources */,
+				677871B02977975A006E3601 /* meals.swift in Sources */,
+				677871BA2977B71B006E3601 /* recipe.swift in Sources */,
+				678A014E2978EABC008D2636 /* favorite.swift in Sources */,
+				672E7B3129788DFA0074B55A /* search.swift in Sources */,
+				672E7B3329788E640074B55A /* searchmodel.swift in Sources */,
+				67C8788B297A1709008855E6 /* calltest.swift in Sources */,
+				677871A929777F1A006E3601 /* tapbarcustom.swift in Sources */,
+				677871AB29777FCD006E3601 /* home.swift in Sources */,
+				678A01502978EAC9008D2636 /* favoritemodel.swift in Sources */,
+				677871AD297788B3006E3601 /* homemodel.swift in Sources */,
+				677871B22977A1BB006E3601 /* mealsmodel.swift in Sources */,
+				677871B62977B122006E3601 /* byRecipe.swift in Sources */,
+				678A014C2978E9D1008D2636 /* favorititem.swift in Sources */,
+				673AF07B2977017D009B0062 /* Amaris_CookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673AF0832977017F009B0062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673AF08C2977017F009B0062 /* Amaris_CookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673AF08D2977017F009B0062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673AF0962977017F009B0062 /* Amaris_CookUITests.swift in Sources */,
+				673AF0982977017F009B0062 /* Amaris_CookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		673AF0892977017F009B0062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 673AF0762977017D009B0062 /* Amaris Cook */;
+			targetProxy = 673AF0882977017F009B0062 /* PBXContainerItemProxy */;
+		};
+		673AF0932977017F009B0062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 673AF0762977017D009B0062 /* Amaris Cook */;
+			targetProxy = 673AF0922977017F009B0062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		673AF0992977017F009B0062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		673AF09A2977017F009B0062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		673AF09C2977017F009B0062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088C803CD5E293EA86C8A0E7 /* Pods-Amaris Cook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amaris Cook/Preview Content\"";
+				DEVELOPMENT_TEAM = 495737228M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmanuel.zambrano.Amaris-Cook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		673AF09D2977017F009B0062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FCA6CF90A98EBC98470599 /* Pods-Amaris Cook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amaris Cook/Preview Content\"";
+				DEVELOPMENT_TEAM = 495737228M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmanuel.zambrano.Amaris-Cook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		673AF09F2977017F009B0062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90FF768F5CB475C4AED4ACE /* Pods-Amaris CookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 495737228M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmanuel.zambrano.Amaris-CookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaris Cook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amaris Cook";
+			};
+			name = Debug;
+		};
+		673AF0A02977017F009B0062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D0AC972D16CC6FDEDE1E14 /* Pods-Amaris CookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 495737228M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmanuel.zambrano.Amaris-CookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaris Cook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amaris Cook";
+			};
+			name = Release;
+		};
+		673AF0A22977017F009B0062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC358CF73ACB9D18A24E6D3 /* Pods-Amaris Cook-Amaris CookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 495737228M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmanuel.zambrano.Amaris-CookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amaris Cook";
+			};
+			name = Debug;
+		};
+		673AF0A32977017F009B0062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A42DF4BD177BB2B37D4495 /* Pods-Amaris Cook-Amaris CookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 495737228M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmanuel.zambrano.Amaris-CookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amaris Cook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		673AF0722977017D009B0062 /* Build configuration list for PBXProject "Amaris Cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673AF0992977017F009B0062 /* Debug */,
+				673AF09A2977017F009B0062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673AF09B2977017F009B0062 /* Build configuration list for PBXNativeTarget "Amaris Cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673AF09C2977017F009B0062 /* Debug */,
+				673AF09D2977017F009B0062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673AF09E2977017F009B0062 /* Build configuration list for PBXNativeTarget "Amaris CookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673AF09F2977017F009B0062 /* Debug */,
+				673AF0A02977017F009B0062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673AF0A12977017F009B0062 /* Build configuration list for PBXNativeTarget "Amaris CookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673AF0A22977017F009B0062 /* Debug */,
+				673AF0A32977017F009B0062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 673AF06F2977017D009B0062 /* Project object */;
+}
