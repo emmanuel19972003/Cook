@@ -26,7 +26,7 @@ struct NoWifi: View {
                     
                     
                     
-                    Text("Try again").foregroundColor(.white)
+                    Text("Try again").foregroundColor(Color("W&B"))
                         .font(.largeTitle)
                     
                 }.padding()
