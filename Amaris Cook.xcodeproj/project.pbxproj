@@ -17,7 +17,9 @@
 		673AF08C2977017F009B0062 /* Amaris_CookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AF08B2977017F009B0062 /* Amaris_CookTests.swift */; };
 		673AF0962977017F009B0062 /* Amaris_CookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AF0952977017F009B0062 /* Amaris_CookUITests.swift */; };
 		673AF0982977017F009B0062 /* Amaris_CookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AF0972977017F009B0062 /* Amaris_CookUITestsLaunchTests.swift */; };
+		67416DC3297EF3AE0056C8BA /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67416DC2297EF3AE0056C8BA /* NetworkMonitor.swift */; };
 		676174DE29775E1F00ABBAB0 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676174DD29775E1F00ABBAB0 /* SplashScreen.swift */; };
+		67696939297EEB9E007D6B5D /* NoWifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67696938297EEB9E007D6B5D /* NoWifi.swift */; };
 		677871A929777F1A006E3601 /* tapbarcustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871A829777F1A006E3601 /* tapbarcustom.swift */; };
 		677871AB29777FCD006E3601 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871AA29777FCC006E3601 /* home.swift */; };
 		677871AD297788B3006E3601 /* homemodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677871AC297788B3006E3601 /* homemodel.swift */; };
@@ -67,7 +69,9 @@
 		673AF0912977017F009B0062 /* Amaris CookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaris CookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		673AF0952977017F009B0062 /* Amaris_CookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaris_CookUITests.swift; sourceTree = "<group>"; };
 		673AF0972977017F009B0062 /* Amaris_CookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaris_CookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67416DC2297EF3AE0056C8BA /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		676174DD29775E1F00ABBAB0 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		67696938297EEB9E007D6B5D /* NoWifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoWifi.swift; sourceTree = "<group>"; };
 		677871A829777F1A006E3601 /* tapbarcustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapbarcustom.swift; sourceTree = "<group>"; };
 		677871AA29777FCC006E3601 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		677871AC297788B3006E3601 /* homemodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homemodel.swift; sourceTree = "<group>"; };
@@ -204,6 +208,7 @@
 				672E7B3029788DFA0074B55A /* search.swift */,
 				678A014D2978EABC008D2636 /* favorite.swift */,
 				67C8788A297A1709008855E6 /* calltest.swift */,
+				67696938297EEB9E007D6B5D /* NoWifi.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 				672E7B3229788E640074B55A /* searchmodel.swift */,
 				678A014F2978EAC9008D2636 /* favoritemodel.swift */,
 				678A015129790C01008D2636 /* calls.swift */,
+				67416DC2297EF3AE0056C8BA /* NetworkMonitor.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -501,7 +507,9 @@
 				672E7B3129788DFA0074B55A /* search.swift in Sources */,
 				672E7B3329788E640074B55A /* searchmodel.swift in Sources */,
 				67C8788B297A1709008855E6 /* calltest.swift in Sources */,
+				67696939297EEB9E007D6B5D /* NoWifi.swift in Sources */,
 				677871A929777F1A006E3601 /* tapbarcustom.swift in Sources */,
+				67416DC3297EF3AE0056C8BA /* NetworkMonitor.swift in Sources */,
 				677871AB29777FCD006E3601 /* home.swift in Sources */,
 				678A01502978EAC9008D2636 /* favoritemodel.swift in Sources */,
 				677871AD297788B3006E3601 /* homemodel.swift in Sources */,

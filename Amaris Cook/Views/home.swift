@@ -9,15 +9,21 @@ import SwiftUI
 
 struct home: View {
     @StateObject private var vm = modelodeHome()
+    @StateObject var networkMonitor = NetworkMonitor()
+    //NoWifi
     var body: some View {
         if (vm.active){
             VStack{
-                if (vm.tap == 0){
-                    meals()
-                }else if (vm.tap == 1){
-                    search()
-                }else if (vm.tap == 2){
-                    favorite()
+                if (networkMonitor.isActive){
+                    if (vm.tap == 0){
+                        meals()
+                    }else if (vm.tap == 1){
+                        search()
+                    }else if (vm.tap == 2){
+                        favorite()
+                    }
+                }else{
+                    NoWifi()
                 }
                 
                 Spacer()
@@ -30,6 +36,8 @@ struct home: View {
             }
         }else{
             SplashScreen().onAppear{
+                
+                
                 DispatchQueue.main.asyncAfter(deadline: .now() + 3){
                     vm.active = true
                 }
